@@ -6,7 +6,7 @@ include a link to their privacy policy in the App Store Connect metadata field
 and within the app in an easily accessible manner."
 
 These files are **generated, not written here.** The source is the mobile and
-admin applications in the private `promo-oman` repository: the privacy and
+admin applications in the private `vew` repository: the privacy and
 terms text lives as data in `@vew/core` so that the site and the app cannot
 disagree about what the reader agreed to, and the support page is rendered by
 its own route. `scripts/freeze-legal-pages.mjs` renders the real pages and
