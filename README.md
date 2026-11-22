@@ -17,3 +17,11 @@ HTML here will be overwritten and will make the site disagree with the app.
 
 Each file is self-contained — stylesheet and images inlined — so any static
 host serves them with no build step.
+
+**The home page and the 404 page** (`index.html`, `404.html`) come from
+`scripts/build-site.mjs` in the same repository. The home page carries the
+essential links: the three documents in both languages, account deletion,
+the note for stores, and the support email and WhatsApp number as the
+support page lists them. `404.html` answers any path that does not exist
+on `vew-om.com` with the same links; its links are written from the root,
+so it is meant for the custom domain, not the github.io address.
