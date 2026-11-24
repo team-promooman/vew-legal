@@ -18,7 +18,8 @@ HTML here will be overwritten and will make the site disagree with the app.
 Each file is self-contained — stylesheet and images inlined — so any static
 host serves them with no build step.
 
-**The home page and the 404 page** (`index.html`, `404.html`) come from
+**The home pages and the 404 page** (`index.html` in Arabic, `index-en.html`
+in English, `404.html`) come from
 `scripts/build-site.mjs` in the same repository. The home page carries the
 essential links: the three documents in both languages, account deletion,
 the note for stores, and the support email and WhatsApp number as the
