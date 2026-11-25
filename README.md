@@ -33,3 +33,7 @@ page its one address and both of its languages in the head. The text file with
 a long hexadecimal name is the site's IndexNow key: it shows Bing that a list
 of changed pages comes from the site itself. `scripts/check-site-search.mjs
 --live` checks all of it.
+
+`google5cc2fde05f3e572f.html` is the file Google Search Console asked for
+when the site was registered there: it proves that the owner's Google account
+controls the site. It has to stay; removing it loses the verification.
