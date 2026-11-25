@@ -26,3 +26,10 @@ the note for stores, and the support email and WhatsApp number as the
 support page lists them. `404.html` answers any path that does not exist
 on `vew-om.com` with the same links; its links are written from the root,
 so it is meant for the custom domain, not the github.io address.
+
+**For search engines.** `robots.txt`, `sitemap.xml`, `favicon.ico` and
+`icon-192.png` come from `scripts/build-site.mjs` too, which also gives every
+page its one address and both of its languages in the head. The text file with
+a long hexadecimal name is the site's IndexNow key: it shows Bing that a list
+of changed pages comes from the site itself. `scripts/check-site-search.mjs
+--live` checks all of it.
